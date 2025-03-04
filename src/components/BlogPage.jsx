@@ -22,11 +22,11 @@ const BlogPage = () => {
 
         {/* blogCards section */}
         <div>
-            <BlogCards />
+            <BlogCards blogs={blogs}/>
         </div>
 
         {/* pagination section */}
-        <div></div>
+        <div>Pagination</div>
     </div>
   )
 }
