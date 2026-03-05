@@ -13,7 +13,8 @@ const BlogPage = () => {
 
     useEffect(() => {
         async function fetchBlogs() {
-            let url = `http://localhost:5000/blogs?pages=${currentPage}&limit=${pageSize}`;
+            // https://react-blog-website-backend.onrender.com/blogs?pages=${currentPage}&limit=${pageSize}
+            let url = `https://react-blog-website-backend.onrender.com/blogs?pages=${currentPage}&limit=${pageSize}`;
 
             // if filter by category
             if(selectedCategory) {
